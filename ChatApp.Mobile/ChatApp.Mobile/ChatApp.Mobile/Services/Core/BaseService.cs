@@ -62,8 +62,12 @@ namespace ChatApp.Mobile.Services.Core
 
         private void InitRoutes()
         {
+            //http://localhost:2777/api/Users/Insert
+            //BaseRoute = "/api";
+            //BaseAddress = "http://192.168.1.36:45455";
             BaseRoute = "/api";
-            BaseAddress = "http://192.168.1.36:45455";
+            //BaseAddress = "https://10.0.2.2:5001";
+            BaseAddress = "http://192.168.31.153:5001";
         }
 
         private HttpClient GetClientRefresh()
